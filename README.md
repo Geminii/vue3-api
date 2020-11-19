@@ -1,24 +1,40 @@
 # vue3-api
 
-## Project setup
-```
-npm install
+> This is a Vue3 project to experiment Composition API. 
+
+## Getting started
+```bash
+# Install dependencies
+yarn install
+
+# Compiles and hot-reloads for development
+yarn run serve
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+
+## Conventional Commits
+[Conventional Commits](https://www.conventionalcommits.org) is a specification for adding human and machine readable meaning to commit messages shared by a large community of developers.
+
+## Linting
+
+Many JavaScript implementations do not warn against questionable coding practices. Yes, that's nice for the site that 
+"works best with Internet Explorer" (designed with templates, scripted with snippets copied from forums). But it's a 
+nightmare when you actually want to write quality, maintainable code.
+
+That's where JavaScript Lint comes in. With JavaScript Lint, you can check all your JavaScript source code for common 
+mistakes without actually running the script or opening the web page.
+
+```bash
+# Lints and fixes files
+yarn run lint
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+## Build Setup
+
+```bash
+# Compiles and minifies for production
+yarn run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## License
+[MIT License](./LICENSE)
